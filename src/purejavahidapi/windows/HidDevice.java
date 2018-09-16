@@ -70,7 +70,7 @@ import purejavahidapi.windows.WinDef.HANDLE;
 import purejavahidapi.windows.WinDef.OVERLAPPED;
 
 public class HidDevice extends purejavahidapi.HidDevice {
-	protected static final long HID_INPUTREPORT_GETOVERLAPPED_DELAY_MS = 20L;
+	protected static final long HID_INPUTREPORT_GETOVERLAPPED_DELAY_MS = 5L;
 	private WindowsBackend m_Backend;
 	private HANDLE m_Handle;
 	private int m_OutputReportLength;
