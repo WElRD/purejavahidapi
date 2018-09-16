@@ -1,5 +1,6 @@
 <sup><sub>*"I'm inspired,intrigued, amazed and annoyed by how difficult, complex, rare and long time coming simple cross platform USB IO is!"*</sub></sup>
 
+Forked for my other project StreamDeckCorefor customization purposes
 
 # Pure Java HID-API
 
