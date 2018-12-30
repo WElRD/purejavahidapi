@@ -50,14 +50,14 @@
 		</javac>
 	</target>
 	<target description="Build all projects which reference this project. Useful to propagate changes." name="build-refprojects">
-		<ant antfile="build.xml" dir="${StreamDeckCore.location}" inheritAll="false" target="clean" />
-		<ant antfile="build.xml" dir="${StreamDeckCore.location}" inheritAll="false" target="build">
+		<ant antfile="build-local.xml" dir="${StreamDeckCore.location}" inheritAll="false" target="clean" />
+		<ant antfile="build-local.xml" dir="${StreamDeckCore.location}" inheritAll="false" target="build">
 			<propertyset>
 				<propertyref name="build.compiler" />
 			</propertyset>
 		</ant>
-		<ant antfile="build.xml" dir="${TabletopSoundboard.location}" inheritAll="false" target="clean" />
-		<ant antfile="build.xml" dir="${TabletopSoundboard.location}" inheritAll="false" target="build">
+		<ant antfile="build-local.xml" dir="${TabletopSoundboard.location}" inheritAll="false" target="clean" />
+		<ant antfile="build-local.xml" dir="${TabletopSoundboard.location}" inheritAll="false" target="build">
 			<propertyset>
 				<propertyref name="build.compiler" />
 			</propertyset>
