@@ -2,7 +2,7 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0"
 	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	
+
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.vveird</groupId>
 	<artifactId>purejavahidapi</artifactId>
@@ -29,6 +29,21 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 	</properties>
+
+	<developers>
+		<developer>
+			<id>vveird</id>
+			<name>Roland Werden</name>
+			<email>vveird.oss@gmail.com</email>
+			<organization>vveird</organization>
+			<organizationUrl>https://github.com/VVEIRD/</organizationUrl>
+			<roles>
+				<role>Project-Administrator</role>
+				<role>Developer</role>
+			</roles>
+			<timezone>+1</timezone>
+		</developer>
+	</developers>
 
 	<build>
 		<sourceDirectory>src</sourceDirectory>
